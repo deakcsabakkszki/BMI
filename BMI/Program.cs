@@ -1,10 +1,13 @@
 ﻿namespace BMI
 {
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<Diak> list = new List<Diak>();
+
+           
         }
     }
 }
