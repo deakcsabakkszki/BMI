@@ -32,7 +32,11 @@
             }
             Console.WriteLine($"3. b, feladat: A legmagasabb diák:" +
                 $"{legmagasabb.Név}, magasság: {legmagasabb.Magasság} cm ");
-
+            
+            foreach (var d in list)
+            {
+                Console.WriteLine(d.Név+":"+d.bmi() );
+            }
         }
     }
 }

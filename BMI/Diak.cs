@@ -28,5 +28,15 @@ Kiss Péter;16;175;68
         {
             return $"{Név} {Életkor}éves {Magasság}cm {Testsúly}kg";
         }
+        public string bmi()
+        {
+            double magassagm = Magasság / 100.0;
+            double BMI = Testsúly / (magassagm * magassagm);
+            if (BMI < 18.5)
+                return "Sovány";
+            else if (BMI < 25)
+                return "Normal";
+            else return "egyéb";
+        }
     }
 }
