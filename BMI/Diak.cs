@@ -38,5 +38,7 @@ Kiss Péter;16;175;68
                 return "Normal";
             else return "egyéb";
         }
+       
+        
     }
 }
